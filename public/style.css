@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer1 {
+    background-color: #1C2125;
+    display: flex;
+    justify-content: space-around;
+}
+.copi {
+    background-color: black;
+    text-align: center;
+}
+.footer1 div p{
+    font-size: 12px;
+}

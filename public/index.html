@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="<%= BASE_URL %>style.css">
+    <title>
+      <%= htmlWebpackPlugin.options.title %>
+    </title>
   </head>
+
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+          Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <footer>
+      <div class="footer1">
+        <div>
+          <h4>A propos</h4>
+          <p>Qui sommes nous</p>
+          <p>FAQ</p>
+          <p>Mentions legales</p>
+          <p>Politique de onfidentialite</p>
+        </div>
+        <div>
+          <h4>Partenaires</h4>
+          <p> Articles récents</p>
+          <p> Publier des articles c’est bien mais…</p>
+          <p> Pourquoi faire une refonte de site web</p>
+          <p> Premier pas créations d’un site web HTML</p>
+        </div>
+        <div>
+          <h4>Société</h4>
+          <p> Progfacil</p>
+          <p> Siret : 830 627 063 00019</p>
+          <p> Mail : contact@progfacil.com</p>
+          <p> Tel: 06 25 54 14 66</p>
+        </div>
+      </div>
+      <div class="copi"> © Tous droits réservés Progfacil.com </div>
+    </footer>
   </body>
+
 </html>
